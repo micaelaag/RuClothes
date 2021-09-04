@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+
+$ancho:70%;
+$colorhf: rgba(12, 11, 11, 0.24);
+$sombraimg:2px 2px 10px 1px #0c0c0c;
+$sombra3:3px 3px 5px #0c0c0c;
+$spaceletter:2px;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Hina Mincho', serif;
+    
+    header, footer, h1{
+        background-color: $colorhf;
+        height: $ancho;
+        width: 100%;
+        text-align: center;   
+    }
+    footer{
+        background-color: $colorhf;
+            iframe  {
+                width: $ancho;
+                height: $ancho;
+                box-shadow: $sombraimg;
+                    }
+                            
+            .tituloWeb   {
+                text-decoration: none;
+                color: slategrey;
+                font-weight: bold;
+                font-size: large;
+                            }
+            img{
+                box-shadow: $sombraimg;
+                border-radius: 50px;
+                }
+                }
+    .btnNav, .btnCarrito, .botones{ 
+                
+        &:hover{
+            background-color: rgba(36, 34, 34, 0.5);
+            text-decoration:none;
+            text-transform: none;
+            border-color: none;
+                }
+        }
+    .btnCarrito{
+        height: 70px;
+        background-color: rgba(36, 34, 34, 0.2);
+        border-color: none;
+    }
+    .agregar{
+        background-color: rgba(36, 34, 34, 0.2);
+        color: #0c0c0c; 
+        border-color: none;
+    }
+
+    .botones{
+        background-color: rgba(36, 34, 34, 0.2);
+        height: 40px; 
+        font-weight: bolder;
+    }
+    a{
+        font-weight: bolder;
+        font-size: 1.3rem;
+        white-space: pre-wrap;
+        color: #0c0c0c; 
+                &:hover{
+                    color: #0c0c0c;  
+                    text-decoration: none;        
+                            }
+    }
+    h1 {
+        color: #0c0c0c; 
+        letter-spacing: $spaceletter;
+        font-weight: bolder;
+    }
+
+    #productos{
+        width: $ancho + 25;
+        
+        .imgProd{
+            box-shadow: $sombra3;
+        }
+    }
+    
+    .imgIg{
+        width: $ancho;
+        box-shadow: $sombra3;
+    }
+    .iconoCarrito{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    }
+}
+
+
+
+

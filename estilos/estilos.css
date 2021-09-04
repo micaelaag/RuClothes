@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Hina Mincho', serif;
+}
+
+body header, body footer, body h1 {
+  background-color: rgba(12, 11, 11, 0.24);
+  height: 70%;
+  width: 100%;
+  text-align: center;
+}
+
+body footer {
+  background-color: rgba(12, 11, 11, 0.24);
+}
+
+body footer iframe {
+  width: 70%;
+  height: 70%;
+  -webkit-box-shadow: 2px 2px 10px 1px #0c0c0c;
+          box-shadow: 2px 2px 10px 1px #0c0c0c;
+}
+
+body footer .tituloWeb {
+  text-decoration: none;
+  color: slategrey;
+  font-weight: bold;
+  font-size: large;
+}
+
+body footer img {
+  -webkit-box-shadow: 2px 2px 10px 1px #0c0c0c;
+          box-shadow: 2px 2px 10px 1px #0c0c0c;
+  border-radius: 50px;
+}
+
+body .btnNav:hover, body .btnCarrito:hover, body .botones:hover {
+  background-color: rgba(36, 34, 34, 0.5);
+  text-decoration: none;
+  text-transform: none;
+  border-color: none;
+}
+
+body .btnCarrito {
+  height: 70px;
+  background-color: rgba(36, 34, 34, 0.2);
+  border-color: none;
+}
+
+body .agregar {
+  background-color: rgba(36, 34, 34, 0.2);
+  color: #0c0c0c;
+  border-color: none;
+}
+
+body .botones {
+  background-color: rgba(36, 34, 34, 0.2);
+  height: 40px;
+  font-weight: bolder;
+}
+
+body a {
+  font-weight: bolder;
+  font-size: 1.3rem;
+  white-space: pre-wrap;
+  color: #0c0c0c;
+}
+
+body a:hover {
+  color: #0c0c0c;
+  text-decoration: none;
+}
+
+body h1 {
+  color: #0c0c0c;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+
+body #productos {
+  width: 95%;
+}
+
+body #productos .imgProd {
+  -webkit-box-shadow: 3px 3px 5px #0c0c0c;
+          box-shadow: 3px 3px 5px #0c0c0c;
+}
+
+body .imgIg {
+  width: 70%;
+  -webkit-box-shadow: 3px 3px 5px #0c0c0c;
+          box-shadow: 3px 3px 5px #0c0c0c;
+}
+
+body .iconoCarrito {
+  -webkit-filter: brightness(1.1);
+          filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+/*# sourceMappingURL=estilos.css.map */
